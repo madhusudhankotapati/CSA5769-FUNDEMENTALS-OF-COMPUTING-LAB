@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+int n,i,sum=0;
+printf("enter the value of the n: ");
+scanf("%d",&n);
+for(i=2;i<=n;i+=2)
+{
+sum+=i*i;
+}
+printf("the sum of the  first even squares of  %d is %d",n,sum);
+return 0;
+}
